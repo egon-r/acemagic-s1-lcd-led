@@ -1,0 +1,18 @@
+# Go build artifacts
+/lcd/s1display
+/led/s1led
+*.test
+*.out
+/coverage.txt
+
+# Local editor and OS files
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+.env
+.env.*
+*.pem
+*.key

@@ -1,0 +1,12 @@
+[Unit]
+Description=Acemagic S1 front LCD service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/s1display -daemon
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
